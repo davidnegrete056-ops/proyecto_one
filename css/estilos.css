@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    color:#2a3846;
+    justify-items: center;
+
+}
+
+.contenedor-global {
+    display: flex;
+    width: 60%;
+    margin-top: 50px;
+    box-shadow: 0px 0px 4px rgba(4, 77, 87, 0.4);
+}
+.contenedor-global section {
+    width: 50%;
+    padding: 35px;
+}
+
+.panel-derecha {
+    display: block;
+}
+
+.formulario p {
+    color: #556b2f;
+    text-align: center;
+}
+
+.formulario h2 {
+    color:#18bcc2;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.formulario form label {
+    width: 100%;
+    font-weight: 200;
+}
+
+.formulario form input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #4caec7;
+    border-radius: 5px;
+}
+
+.formulario form p{
+    text-align: left;
+}
+
+.formulario form a {
+    color:#18a9c2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.formulario form a:hover {
+    text-decoration: underline;
+}
+
+.botones {
+    display: flex;
+    margin-top: 20px;
+}
+
+.botones input[type="submit"] {
+    background-color: #49b0ca;
+    color: #201d1d;
+    border: none;
+
+} 
+.botones input[type="submit"]:hover {
+    background-color: #8bd8e6;
+}
+
+.botones input[type="reset"] {
+    background-color: #ccc;
+    color: rgb(77, 199, 221);
+    border: 1px solid #30b3ca;
+}
+
+.formulario form input[type="reset"]:hover{
+    background-color: #ccc;
+}
+
+.panel-izquierda {
+    background-image: url("../images/noel_bauza-mountains-10447712_1920.png");
+    background-size: cover;
+    background-position: center;
+}
