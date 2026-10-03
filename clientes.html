@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clientes - Cepkit</title>
+    <title>clientes - Cepkit</title>
     <link rel="stylesheet" href="css/inicio.css">
     <link rel="stylesheet" href="css/clientes.css">
 </head>
@@ -23,18 +23,18 @@
     <div class="main-wrapper">
 
         <header class="banner">
-            <h1>Gestion de Clientes</h1>
+            <h1>Gestion de clientes</h1>
         </header>
 
         <main class="content">
 
             <section class="actions-bar card">
                 <input type="text" placeholder="Buscar clientes por nombre o telefono..." class="search-input">
-                <button class="btn btn-primary" onclick="openModal()">+ Nuevo Cliente</button>
+                <button class="btn btn-primary" onclick="openModal()">+ Nuevo cliente</button>
             </section>
 
             <section class="card table-container">
-                <h2>Lista de Clientes</h2>
+                <h2>Lista de clientes</h2>
                 <table class="data-table">
                     <thead>
                         <tr>
@@ -127,15 +127,15 @@
 
     <script>
         function openModal() {
-            document.getElementById('modalCliente').style.display = 'flex';
+            document.getElementById('modalClientes').style.display = 'flex';
         }
 
         function closeModal() {
-            document.getElementById('modaCliente').style.display = 'none';
+            document.getElementById('modaClientes').style.display = 'none';
         }
 
         window.onclick = function(event) {
-            const modal = document.getElementById('modalCliente');
+            const modal = document.getElementById('modalClientes');
             if (event.target === modal) {
                 closeModal();
             }
